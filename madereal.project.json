@@ -1,0 +1,45 @@
+{
+  "name": "Murphy's Cleaning Services",
+  "clientName": "Ben Murphy",
+  "primaryUrl": "https://murphys-cleaning-services.netlify.app",
+  "githubRepo": "maderealdesign/murphys-cleaning-services",
+  "githubUrl": "https://github.com/maderealdesign/murphys-cleaning-services",
+  "netlifyProjectName": "murphys-cleaning-services",
+  "netlifySiteId": "7dfd8265-5db3-429c-9740-a9bdced388b8",
+  "netlifyAdminUrl": "https://app.netlify.com/projects/murphys-cleaning-services",
+  "businessType": "Exterior cleaning services",
+  "phone": "07511 697806",
+  "email": "benmurphy1991@icloud.com",
+  "services": [
+    "Window cleaning",
+    "Gutter clearing",
+    "Pressure washing",
+    "Roof cleaning",
+    "Steam cleaning",
+    "Conservatory cleaning",
+    "Fascia, soffit and cladding cleaning"
+  ],
+  "locations": [
+    "Skipton",
+    "Colne",
+    "North Yorkshire",
+    "Lancashire",
+    "Barnoldswick",
+    "Settle",
+    "Gargrave",
+    "Keighley"
+  ],
+  "forms": [
+    {
+      "name": "quote-request",
+      "successPath": "/thank-you"
+    }
+  ],
+  "agent": {
+    "status": "website_ready_waiting_for_telegram_chat",
+    "ownerTelegramUserId": "7997991078",
+    "defaultModelTier": "cheap",
+    "monthlyIncludedCredits": 1000
+  },
+  "updatedAt": "2026-06-30T10:46:48.324Z"
+}

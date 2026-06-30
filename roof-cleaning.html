@@ -17,20 +17,91 @@
   <style>body{overflow-x:hidden}.soft-card{box-shadow:0 24px 70px rgba(19,50,84,.10)}.hero-grad{background:linear-gradient(135deg,#133254 0%,#1c4778 55%,#5ac4ef 120%)}</style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Murphy's Cleaning Services","image":"https://i.ibb.co/FNdv1Xr/Screenshot-2026-05-17-at-23-05-29.png","telephone":"07511 697806","email":"benmurphy1991@icloud.com","url":"https://murphys-cleaning-services.netlify.app","areaServed":["Skipton","Colne","North Yorkshire","Lancashire","Barnoldswick","Settle","Gargrave","Keighley"],"serviceType":["Window Cleaning","Gutter Clearing","Pressure Washing","Roof Cleaning","Steam Cleaning","Conservatory Cleaning","Fascia, Soffit & Cladding Cleaning"],"sameAs":["https://www.facebook.com/profile.php?id=100063674405694"]}</script>
 </head><body class="font-sans text-slate-700 bg-white">
-  <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-100">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <a href="index.html" class="flex items-center gap-3"><img src="https://i.ibb.co/FNdv1Xr/Screenshot-2026-05-17-at-23-05-29.png" alt="Murphy's Cleaning Services logo" class="h-12 w-auto"><span class="sr-only">Murphy's Cleaning Services</span></a>
-      <div class="hidden lg:flex items-center gap-7 text-sm font-semibold text-brand-navy">
-        <a href="about.html" class="hover:text-brand-cyan transition">About</a>
-        <a href="services.html" class="hover:text-brand-cyan transition">Services</a>
-        <a href="gallery.html" class="hover:text-brand-cyan transition">Gallery</a>
-        <a href="reviews.html" class="hover:text-brand-cyan transition">Reviews</a>
-        <a href="faq.html" class="hover:text-brand-cyan transition">FAQ</a>
-        <a href="contact.html" class="bg-brand-cyan text-brand-navy px-5 py-2.5 rounded-full font-bold hover:bg-brand-navy hover:text-white transition">Get a Quote</a>
-      </div>
-      <a href="tel:07511697806" class="lg:hidden bg-brand-cyan text-brand-navy px-4 py-2 rounded-full font-bold">Call</a>
-    </div>
-  </nav>
+  <nav id="navbar" class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex h-20 items-center justify-between">
+                <a href="index.html" class="flex items-center flex-shrink-0" aria-label="Murphy's Cleaning Services home">
+                    <img src="https://i.ibb.co/FNdv1Xr/Screenshot-2026-05-17-at-23-05-29.png" alt="Murphy's Cleaning Services Logo" class="h-14 w-auto md:h-16">
+                </a>
+
+                <div class="hidden lg:flex items-center gap-7">
+                    <a href="index.html" class="text-sm font-semibold text-brand-navy hover:text-brand-cyan transition">Home</a>
+                    <a href="about.html" class="text-sm font-semibold text-brand-navy hover:text-brand-cyan transition">About</a>
+                    <div class="relative group">
+                        <a href="services.html" class="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-cyan transition py-8">
+                            Services <i class="fa-solid fa-chevron-down text-[10px]"></i>
+                        </a>
+                        <div class="absolute left-0 top-full hidden group-hover:grid group-focus-within:grid w-72 rounded-2xl bg-white border border-gray-100 shadow-2xl p-3 z-50">
+                            <a href="services.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">All Services</a>
+                            <a href="window-cleaning.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Window Cleaning</a>
+                            <a href="gutter-cleaning.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Gutter Clearing</a>
+                            <a href="pressure-washing.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Pressure Washing</a>
+                            <a href="roof-cleaning.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Roof Cleaning</a>
+                            <a href="steam-cleaning.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Steam Cleaning</a>
+                            <a href="conservatory-cleaning.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Conservatory Cleaning</a>
+                            <a href="fascia-soffit-cleaning.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Fascia, Soffit & Cladding</a>
+                        </div>
+                    </div>
+                    <div class="relative group">
+                        <a href="skipton.html" class="inline-flex items-center gap-2 text-sm font-semibold text-brand-navy hover:text-brand-cyan transition py-8">
+                            Areas <i class="fa-solid fa-chevron-down text-[10px]"></i>
+                        </a>
+                        <div class="absolute left-0 top-full hidden group-hover:grid group-focus-within:grid w-72 rounded-2xl bg-white border border-gray-100 shadow-2xl p-3 z-50">
+                            <a href="skipton.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Skipton</a>
+                            <a href="colne.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Colne</a>
+                            <a href="north-yorkshire.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">North Yorkshire</a>
+                            <a href="lancashire.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Lancashire</a>
+                            <a href="barnoldswick.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Barnoldswick</a>
+                            <a href="settle.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Settle</a>
+                            <a href="gargrave.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Gargrave</a>
+                            <a href="keighley.html" class="rounded-xl px-4 py-3 text-sm font-semibold text-brand-navy hover:bg-brand-light hover:text-brand-cyan transition">Keighley</a>
+                        </div>
+                    </div>
+                    <a href="gallery.html" class="text-sm font-semibold text-brand-navy hover:text-brand-cyan transition">Gallery</a>
+                    <a href="reviews.html" class="text-sm font-semibold text-brand-navy hover:text-brand-cyan transition">Reviews</a>
+                    <a href="contact.html" class="bg-brand-cyan text-white px-6 py-2.5 rounded-full text-sm font-title font-bold hover:bg-brand-blue shadow-lg shadow-brand-cyan/30 transition-all transform hover:-translate-y-0.5">Get a Quote</a>
+                </div>
+
+                <button id="mobile-menu-btn" type="button" class="lg:hidden text-brand-navy hover:text-brand-cyan focus:outline-none p-3 rounded-xl border border-gray-200" aria-controls="mobile-menu" aria-expanded="false">
+                    <span class="sr-only">Open menu</span>
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 pb-6">
+                <a href="index.html" class="block px-3 py-3 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Home</a>
+                <a href="about.html" class="block px-3 py-3 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">About</a>
+                <div class="pt-3 mt-3 border-t border-gray-100">
+                    <p class="px-3 pb-2 text-xs font-title font-bold uppercase tracking-[0.18em] text-gray-400">Services</p>
+                    <a href="services.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">All Services</a>
+                    <a href="window-cleaning.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Window Cleaning</a>
+                    <a href="gutter-cleaning.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Gutter Clearing</a>
+                    <a href="pressure-washing.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Pressure Washing</a>
+                    <a href="roof-cleaning.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Roof Cleaning</a>
+                    <a href="steam-cleaning.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Steam Cleaning</a>
+                    <a href="conservatory-cleaning.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Conservatory Cleaning</a>
+                    <a href="fascia-soffit-cleaning.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Fascia, Soffit & Cladding</a>
+                </div>
+                <div class="pt-3 mt-3 border-t border-gray-100">
+                    <p class="px-3 pb-2 text-xs font-title font-bold uppercase tracking-[0.18em] text-gray-400">Areas</p>
+                    <a href="skipton.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Skipton</a>
+                    <a href="colne.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Colne</a>
+                    <a href="north-yorkshire.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">North Yorkshire</a>
+                    <a href="lancashire.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Lancashire</a>
+                    <a href="barnoldswick.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Barnoldswick</a>
+                    <a href="settle.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Settle</a>
+                    <a href="gargrave.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Gargrave</a>
+                    <a href="keighley.html" class="block px-3 py-2.5 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Keighley</a>
+                </div>
+                <div class="pt-3 mt-3 border-t border-gray-100">
+                    <a href="gallery.html" class="block px-3 py-3 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Gallery</a>
+                    <a href="reviews.html" class="block px-3 py-3 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">Reviews</a>
+                    <a href="faq.html" class="block px-3 py-3 font-semibold text-brand-navy hover:text-brand-cyan hover:bg-brand-light rounded-lg">FAQ</a>
+                    <a href="contact.html" class="block px-3 py-3 mt-3 text-center font-title font-bold text-white bg-brand-cyan hover:bg-brand-navy rounded-lg">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </nav>
   <header class="hero-grad text-white py-24"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-12 lg:grid-cols-[1.05fr_.95fr] items-center"><div><p class="uppercase tracking-[.25em] text-brand-cyan font-title font-bold text-sm mb-4">Roof Cleaning</p><h1 class="text-4xl md:text-6xl font-title font-extrabold leading-tight mb-6">Roof Cleaning for local homes and businesses</h1><p class="text-xl text-white/85 leading-relaxed mb-8">Roof moss can make a property look tired and can contribute to blocked gutters when growth breaks away. Murphy's Cleaning Services helps with careful roof cleaning, moss removal and related exterior cleaning where suitable for the property.</p><div class="flex flex-col sm:flex-row gap-4"><a href="contact.html" class="bg-brand-cyan text-brand-navy px-8 py-4 rounded-full font-title font-extrabold hover:bg-white transition">Get a Free Quote</a><a href="tel:07511697806" class="bg-white/10 border border-white/20 px-8 py-4 rounded-full font-title font-bold hover:bg-white hover:text-brand-navy transition">07511 697806</a></div></div><div class="bg-white/10 border border-white/15 rounded-[2rem] p-8 soft-card"><i class="fa-solid fa-house-chimney text-5xl text-brand-cyan mb-6"></i><h2 class="text-2xl font-title font-bold mb-6">What this service covers</h2><ul class="space-y-4"><li class="flex gap-3"><i class="fa-solid fa-check text-brand-cyan mt-1"></i><span>Moss and organic growth removal where appropriate</span></li><li class="flex gap-3"><i class="fa-solid fa-check text-brand-cyan mt-1"></i><span>Helps reduce debris falling into guttering</span></li><li class="flex gap-3"><i class="fa-solid fa-check text-brand-cyan mt-1"></i><span>Good for improving kerb appeal and exterior condition</span></li><li class="flex gap-3"><i class="fa-solid fa-check text-brand-cyan mt-1"></i><span>Can be paired with gutter clearing after roof work</span></li></ul></div></div></header>
   <main>
     <section class="py-20"><div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-2"><div class="bg-white rounded-[2rem] border border-slate-200 p-8 soft-card"><h2 class="text-2xl font-title font-bold text-brand-navy mb-4">A careful local service</h2><p class="text-slate-600 leading-relaxed">Roof cleaning needs judgement. Not every roof should be treated in the same way, and the safest method depends on access, tiles, pitch, age and condition. The first step is always to understand the property and advise sensibly.</p></div><div class="bg-white rounded-[2rem] border border-slate-200 p-8 soft-card"><h2 class="text-2xl font-title font-bold text-brand-navy mb-4">Why customers book this</h2><p class="text-slate-600 leading-relaxed">Where roof cleaning is suitable, the focus is on careful improvement rather than aggressive shortcuts. Gutter clearing is often recommended afterwards because roof debris can collect in the gutter system.</p></div></div></section>
@@ -45,4 +116,32 @@
     <div><h3 class="font-title font-bold text-brand-navy mb-3">Areas</h3><div class="grid grid-cols-2 gap-2 text-sm text-slate-600"><a class="hover:text-brand-cyan transition" href="skipton.html">Skipton</a><a class="hover:text-brand-cyan transition" href="colne.html">Colne</a><a class="hover:text-brand-cyan transition" href="north-yorkshire.html">North Yorkshire</a><a class="hover:text-brand-cyan transition" href="lancashire.html">Lancashire</a><a class="hover:text-brand-cyan transition" href="barnoldswick.html">Barnoldswick</a><a class="hover:text-brand-cyan transition" href="settle.html">Settle</a><a class="hover:text-brand-cyan transition" href="gargrave.html">Gargrave</a><a class="hover:text-brand-cyan transition" href="keighley.html">Keighley</a></div></div>
     <div><h3 class="font-title font-bold text-brand-navy mb-3">Contact</h3><div class="grid gap-2 text-sm text-slate-600"><a href="tel:07511697806" class="font-bold text-brand-navy hover:text-brand-cyan">07511 697806</a><a href="mailto:benmurphy1991@icloud.com" class="break-all hover:text-brand-cyan">benmurphy1991@icloud.com</a><a href="https://www.facebook.com/profile.php?id=100063674405694" target="_blank" class="hover:text-brand-cyan">Facebook</a><a href="privacy-policy.html" class="hover:text-brand-cyan">Privacy Policy</a></div></div>
   </div>
-</footer></body></html>
+</footer>
+    <script>
+        (() => {
+            if (window.__murphyMenuBound) return;
+            window.__murphyMenuBound = true;
+            const btn = document.getElementById('mobile-menu-btn');
+            const menu = document.getElementById('mobile-menu');
+            if (!btn || !menu) return;
+            const icon = btn.querySelector('i');
+            const closeMenu = () => {
+                menu.classList.add('hidden');
+                btn.setAttribute('aria-expanded', 'false');
+                if (icon) {
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            };
+            btn.addEventListener('click', () => {
+                const isHidden = menu.classList.toggle('hidden');
+                btn.setAttribute('aria-expanded', String(!isHidden));
+                if (icon) {
+                    icon.classList.toggle('fa-bars');
+                    icon.classList.toggle('fa-times');
+                }
+            });
+            menu.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
+        })();
+    </script>
+</body></html>

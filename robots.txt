@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://murphys-cleaning-services.netlify.app/sitemap.xml
